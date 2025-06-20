@@ -1,35 +1,15 @@
-# Proyecto base de pruebas automatizadas con Karate, Java y Gradle
+# RESULTADOS
+# GET
+<img width="1508" alt="Screenshot 2025-06-20 at 11 38 14 AM" src="https://github.com/user-attachments/assets/451a2c9f-2aea-49d0-8ff3-57a0b357aced" />
 
-Este proyecto es una base para implementar pruebas automatizadas de la colección de peticiones entregadas (por ejemplo, una colección Postman). Todas las pruebas deben ser escritas en el archivo `src/test/resources/karate-test.feature` siguiendo la sintaxis de Karate DSL.
+# GET BY ID
+<img width="1501" alt="Screenshot 2025-06-20 at 11 40 03 AM" src="https://github.com/user-attachments/assets/4fe2b4c6-ca30-4c7a-bc78-4e9a37eff8b8" />
 
-## Instrucciones de uso
+# POST
+<img width="1509" alt="Screenshot 2025-06-20 at 11 39 07 AM" src="https://github.com/user-attachments/assets/72d4cdcb-3c7b-4594-a20d-6ef12836cc7b" />
 
-### 1. Descarga del proyecto
+# PUT
+<img width="1509" alt="Screenshot 2025-06-20 at 11 39 18 AM" src="https://github.com/user-attachments/assets/b21bed6e-70ab-460c-93ee-9285eb422fca" />
 
-Clona este repositorio en tu máquina local:
-
-```sh
-git clone https://github.com/dg-juacasti/test-automatisation-base
-cd karate-test
-```
-
-### 2. Escribe tus pruebas
-
-- Implementa los escenarios de prueba en el archivo:
-  - `src/test/resources/karate-test.feature`
-- Usa la sintaxis de Karate para definir los escenarios y validaciones.
-
-### 3. Ejecuta las pruebas
-
-Asegúrate de tener Java 17, 18 o 21 instalado y activo. Luego ejecuta:
-
-```sh
-./gradlew test o gradlew test
-```
-
-Esto compilará el proyecto y ejecutará todas las pruebas automatizadas.
-
----
-
-- Si tienes problemas de SSL, puedes agregar la línea `* configure ssl = true` en el `Background` de tu archivo `.feature`.
-- Los reportes de ejecución se generarán en la carpeta `karate-reports/`.
+# DELETE
+<img width="1504" alt="Screenshot 2025-06-20 at 11 39 26 AM" src="https://github.com/user-attachments/assets/ca7fce07-2b50-4980-9348-008c93b81878" />
